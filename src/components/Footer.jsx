@@ -22,16 +22,16 @@ export default function Footer() {
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-2xl font-bold tracking-widest text-white uppercase">
-                SHIVSAI 360
+                DERMAVITA
               </span>
               <span className="text-[9px] uppercase tracking-[0.2em] text-brand-gold-light font-medium -mt-1">
-                Skin • Hair • Aesthetics • Academy
+                Skin • Hair • Laser • Clinic
               </span>
             </div>
           </a>
 
           <p className="font-sans text-xs md:text-sm text-brand-beige/85 font-light leading-relaxed mb-8 max-w-sm">
-            Experience gold-standard medical cosmetology, advanced hair solutions, and premium aesthetics directed by Dr. Priyanka Kawale in Kolhapur, Maharashtra.
+            Experience gold-standard clinical dermatology, advanced FUE/DHI hair transplants, and premium laser treatments directed by Dr. Vijay Raut in Laxmipuri, Kolhapur.
           </p>
 
           {/* Social Icons */}
@@ -53,11 +53,11 @@ export default function Footer() {
         <div className="lg:col-span-2 flex flex-col items-start text-left">
           <h4 className="font-serif text-lg font-bold text-white mb-6 uppercase tracking-wider">Treatments</h4>
           <div className="flex flex-col gap-3 font-sans text-xs text-brand-beige/80 font-light">
-            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Acne Solutions</a>
-            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Hair PRP Therapy</a>
-            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">HydraFacial Glow</a>
-            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Anti-Aging Care</a>
-            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Academy Courses</a>
+            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Skin Treatment</a>
+            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Hair Transplant</a>
+            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Laser Removal</a>
+            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Acne & Scars</a>
+            <a href="#services" className="hover:text-brand-gold transition-colors duration-300">Cosmetic Procedures</a>
           </div>
         </div>
 
@@ -89,18 +89,18 @@ export default function Footer() {
             <div className="flex items-start gap-2.5">
               <MapPin className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
               <span className="font-light leading-relaxed">
-                Balaji Apartment, 2nd Floor, Rajarampuri 3rd Lane, Near Mahendra Jeweller, Kolhapur, MH 416008
+                DermaVita Clinic, Landmark Building, 1st Floor, Near Laxmipuri Police Station, Laxmipuri, Kolhapur, MH 416002
               </span>
             </div>
             
             <div className="flex items-center gap-2.5">
               <Phone className="w-4 h-4 text-brand-gold shrink-0" />
-              <a href="tel:+917066312444" className="hover:text-brand-gold transition-colors duration-300 font-light">+91 70663 12444</a>
+              <a href="tel:+919876543210" className="hover:text-brand-gold transition-colors duration-300 font-light">+91 98765 43210</a>
             </div>
 
             <div className="flex items-center gap-2.5">
               <Mail className="w-4 h-4 text-brand-gold shrink-0" />
-              <a href="mailto:info@shivsai360.com" className="hover:text-brand-gold transition-colors duration-300 font-light">info@shivsai360.com</a>
+              <a href="mailto:info@dermavitaclinic.com" className="hover:text-brand-gold transition-colors duration-300 font-light font-sans">info@dermavitaclinic.com</a>
             </div>
           </div>
 
@@ -108,14 +108,14 @@ export default function Footer() {
           <div className="w-full h-24 rounded-2xl overflow-hidden border border-white/10 shadow-inner relative group">
             {/* Embedded high-fidelity google map centered on Rajarampuri, Kolhapur */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.849339396349!2d74.23725617473551!3d16.68444398408479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10008bbbbbbbb%3A0x6b5c3ea5b45a4df0!2sRajarampuri%2C%20Kolhapur%2C%20Maharashtra%20416008!5e0!3m2!1sen!2sin!4v1716650422204!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.670399120612!2d74.22748887473574!3d16.69324548407843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc100135d56b0d9%3A0x8670bf67be5ef05d!2sLaxmipuri%2C%20Kolhapur%2C%20Maharashtra%20416002!5e0!3m2!1sen!2sin!4v1716650499999!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, filter: 'grayscale(1) invert(0.9) contrast(1.2)' }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="SHIVSAI 360 Location Map"
+              title="DERMAVITA CLINIC Location Map"
             />
             {/* Map overlay action */}
             <a
@@ -132,7 +132,7 @@ export default function Footer() {
 
       {/* Bottom Bar: Copyright details */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 pt-10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-sans text-brand-beige/50 font-light">
-        <span>© {currentYear} SHIVSAI 360 Skin Hair Aesthetics Clinic & Academy. All Rights Reserved.</span>
+        <span>© {currentYear} DERMAVITA CLINIC. All Rights Reserved.</span>
         <div className="flex gap-4">
           <a href="#" className="hover:text-brand-gold transition-colors duration-300 font-light">Privacy Policy</a>
           <span>•</span>

@@ -18,11 +18,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
+    { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Doctor', href: '#doctor' },
     { name: 'Transformations', href: '#transformations' },
     { name: 'Why Us', href: '#why-us' },
-    { name: 'Academy', href: '#academy' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'FAQs', href: '#faqs' },
   ];
@@ -43,10 +43,10 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="font-serif text-2xl font-bold tracking-widest text-brand-dark uppercase">
-              SHIVSAI 360
+              DERMAVITA
             </span>
             <span className="text-[8px] sm:text-[9px] uppercase tracking-[0.2em] sm:tracking-[0.25em] text-brand-gold-dark font-medium -mt-1">
-              Skin • Hair • Aesthetics • Academy
+              Skin • Hair • Laser • Clinic
             </span>
           </div>
         </a>

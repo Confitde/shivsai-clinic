@@ -3,18 +3,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { CalendarRange, User, Phone, Sparkles, MessageCircleCode, CheckCircle, Clock } from 'lucide-react';
 
 const treatments = [
-  'Acne Solutions',
-  'Acne Scar Treatment',
-  'Hair Loss Treatment',
-  'PRP Therapy',
-  'HydraFacial',
-  'Chemical Peels',
-  'Pigmentation Correction',
+  'Skin Treatment',
+  'Hair Treatment',
+  'Hair Transplant',
+  'Laser Hair Removal',
+  'Acne & Scar Treatment',
+  'Pigmentation Treatment',
   'Anti-Aging Treatments',
-  'Skin Rejuvenation',
-  'Aesthetic Procedures',
-  'Trichology Services',
-  'Beauty Training Programs'
+  'Dermatosurgery',
+  'Nail Treatments',
+  'Cosmetic Procedures'
 ];
 
 export default function BookingForm() {

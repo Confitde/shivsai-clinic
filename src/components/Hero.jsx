@@ -36,7 +36,7 @@ export default function Hero() {
           >
             <ShieldCheck className="w-4 h-4 text-brand-gold-dark" />
             <span className="text-xs uppercase tracking-widest font-sans font-semibold text-brand-dark-light">
-              Premium Skincare & Cosmetology
+              Trusted Dermatology Clinic in Kolhapur
             </span>
           </motion.div>
 
@@ -47,9 +47,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold text-brand-dark leading-[1.1] mb-6"
           >
-            Healthy Skin,<br />
-            Beautiful Hair,<br />
-            <span className="gold-gradient-text">Timeless Confidence</span>
+            Advanced Skin, Hair<br />
+            & Aesthetic Care<br />
+            <span className="gold-gradient-text">in Kolhapur</span>
           </motion.h1>
 
           {/* Subheadline explaining services */}
@@ -59,7 +59,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="font-sans text-brand-dark-light text-base md:text-lg max-w-xl mb-10 leading-relaxed font-light"
           >
-            Advanced Skin, Hair & Aesthetic Treatments by Dr. Priyanka Kawale with personalized care and modern technology. Experience the pinnacle of premium clinical aesthetics in Kolhapur.
+            Expert dermatology, hair restoration, laser treatments, and cosmetic procedures by experienced specialists. Experience clinical excellence and personalized aesthetic care under Dr. Vijay Raut.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -77,7 +77,7 @@ export default function Hero() {
               Book Appointment
             </a>
             <a
-              href="https://wa.me/917066312444?text=Hi%20SHIVSAI%20360%20Clinic,%20I%20would%20like%20to%20book%20a%20consultation."
+              href="https://wa.me/919876543210?text=Hi%20DermaVita%20Clinic,%20I%20would%20like%20to%20book%20a%20consultation."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 font-sans text-sm tracking-widest uppercase font-semibold text-brand-green hover:text-white border-2 border-brand-green/30 hover:border-brand-green bg-white/50 hover:bg-brand-green px-8 py-5 rounded-2xl shadow-sm transition-all duration-300 hover:scale-105"
@@ -96,22 +96,22 @@ export default function Hero() {
           >
             <div className="flex flex-col items-start">
               <div className="flex items-center gap-1">
-                <span className="text-2xl md:text-3xl font-serif font-bold text-brand-dark">4.9</span>
+                <span className="text-2xl md:text-3xl font-serif font-bold text-brand-dark">5.0</span>
                 <div className="flex text-brand-gold mb-1">
                   <Star className="w-4 h-4 fill-brand-gold" />
                 </div>
               </div>
-              <span className="text-xs uppercase tracking-wider text-brand-dark-light/70 font-medium">Google Rating</span>
+              <span className="text-xs uppercase tracking-wider text-brand-dark-light/70 font-medium">57+ Reviews</span>
             </div>
             
             <div className="flex flex-col items-start border-l border-brand-gold/20 pl-6 md:pl-10">
-              <span className="text-2xl md:text-3xl font-serif font-bold text-brand-dark">330+</span>
-              <span className="text-xs uppercase tracking-wider text-brand-dark-light/70 font-medium">Happy Patients</span>
+              <span className="text-2xl md:text-3xl font-serif font-bold text-brand-dark">Advanced</span>
+              <span className="text-xs uppercase tracking-wider text-brand-dark-light/70 font-medium">Technology</span>
             </div>
 
             <div className="flex flex-col items-start border-l border-brand-gold/20 pl-6 md:pl-10">
-              <span className="text-2xl md:text-3xl font-serif font-bold text-brand-dark">USA PG</span>
-              <span className="text-xs uppercase tracking-wider text-brand-dark-light/70 font-medium">Cosmetology</span>
+              <span className="text-2xl md:text-3xl font-serif font-bold text-brand-dark">Trusted</span>
+              <span className="text-xs uppercase tracking-wider text-brand-dark-light/70 font-medium">Dermatology</span>
             </div>
           </motion.div>
 
@@ -145,7 +145,7 @@ export default function Hero() {
           >
             <img 
               src={`${import.meta.env.BASE_URL}doctor.jpg`} 
-              alt="Dr. Priyanka Kawale - Founder & Chief Cosmetologist" 
+              alt="Dr. Vijay Raut - Chief Dermatologist" 
               className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
               loading="eager"
             />
@@ -161,8 +161,8 @@ export default function Hero() {
               <HeartPulse className="w-5 h-5" />
             </div>
             <div className="text-left">
-              <h4 className="text-[11px] font-sans font-bold uppercase tracking-wider text-brand-dark">US Trained</h4>
-              <p className="text-[9px] font-sans text-brand-dark-light/80">Expert medical cosmetology and advanced lasers</p>
+              <h4 className="text-[11px] font-sans font-bold uppercase tracking-wider text-brand-dark">MD / DNB</h4>
+              <p className="text-[9px] font-sans text-brand-dark-light/80">Expert hair transplant & clinical dermatosurgery</p>
             </div>
           </motion.div>
 

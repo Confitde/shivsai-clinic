@@ -4,7 +4,7 @@ import { MessageSquareCode } from 'lucide-react';
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/917066312444?text=Hi%20SHIVSAI%20360%20Clinic,%20I%20would%20like%20to%20book%20a%20consultation."
+      href="https://wa.me/919876543210?text=Hi%20DermaVita%20Clinic,%20I%20would%20like%20to%20book%20a%20consultation."
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-40 group flex items-center gap-2 select-none"

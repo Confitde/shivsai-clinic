@@ -5,33 +5,28 @@ import { Plus, Minus, HelpCircle } from 'lucide-react';
 const faqs = [
   {
     id: 1,
-    question: 'What clinical treatments do you offer for acne and scars?',
-    answer: 'We provide comprehensive, dermatologist-supervised acne programs. For active acne, we offer clinical comedone extractions, salicylic acid peels, and LED blue-light therapies. For structural acne scars, we utilize gold-standard Subcision, Microneedling Fractional RF (MNRF), and CO2 fractional lasers to stimulate deep collagen remodeling and smooth textural indentations.'
+    question: 'What clinical specialties does DERMAVITA CLINIC offer?',
+    answer: 'We are a comprehensive medical-aesthetic clinic offering advanced diagnostic and therapeutic care across 10 main specialties: skin treatments, hair treatments, high-density hair transplants, FDA-approved laser hair removal, acne & scar remodelling, pigmentation treatments, anti-aging solutions, minor dermatosurgical excisions, nail fungal/ingrown nail care, and modern cosmetic procedures.'
   },
   {
     id: 2,
-    question: 'Is Laser Hair Removal safe for all skin tones, and does it hurt?',
-    answer: 'Yes! We use advanced, FDA-approved triple-wavelength diode laser systems that are scientifically proven to be safe and highly effective for all skin tones (Fitzpatrick Scale I to VI). Our device features an advanced contact cooling sapphire tip that chills the skin to 4°C during treatment, neutralizing heat sensations and making the procedure virtually painless.'
+    question: 'How is your Hair Transplant procedure performed?',
+    answer: 'We specialize in advanced FUE (Follicular Unit Extraction) and DHI (Direct Hair Implantation) hair transplant techniques under local anesthesia. Directed by Dr. Vijay Raut, we extract individual healthy hair follicles from your donor area and precisely micro-implant them at correct natural angles and densities, ensuring a natural-looking hairline with maximum survivability.'
   },
   {
     id: 3,
-    question: 'What is PRP Scalp Therapy and how does it treat hair fall?',
-    answer: 'Platelet-Rich Plasma (PRP) therapy is an advanced, non-surgical hair restoration treatment. A small amount of your blood is drawn and spun in a specialized centrifuge to isolate growth-factor-rich platelets. This concentrated plasma is then precisely micro-injected into the scalp. These growth factors revitalize dormant follicles, arrest hair thinning, and trigger thick new hair growth.'
+    question: 'Is Laser Hair Removal safe and painful?',
+    answer: 'Yes, it is extremely safe! We utilize gold-standard triple-wavelength diode laser technology that targets hair follicles precisely without affecting surrounding skin tissues. The laser handpiece features a built-in sapphire contact cooling system that keeps the skin chilled at 4°C, completely neutralizing heat sensations and making the procedure virtually painless.'
   },
   {
     id: 4,
-    question: 'Is there any downtime or recovery associated with Chemical Peels?',
-    answer: 'It depends on the strength of the peel. Light peels (like salicylic or glycolic peels) have zero downtime—you might experience mild pinkness for a few hours. Deep rejuvenating peels (like yellow peels) may trigger light flaking or skin shedding starting on day 3, which resolves completely by day 7, revealing exceptionally soft, brand-new baby skin.'
+    question: 'What treatments are available for deep acne scars?',
+    answer: 'For structural acne scars, we utilize combined medical modalities for the best results: subcision to break fibrous under-scar bands, Microneedling Fractional RF (MNRF) to stimulate deep dermal collagen remodeling, and fractional CO2 laser resurfacing to smooth surface texture and pitting.'
   },
   {
     id: 5,
-    question: 'How do I book an appointment and what is the consulting fee?',
-    answer: 'You can book easily by filling out our online Booking Form, clicking the floating WhatsApp Button, or calling us directly. Our basic clinical consulting fee is very premium yet accessible, covering a thorough, personalized digital analysis and a custom-crafted cosmetology treatment blueprint mapped out by Dr. Priyanka Kawale.'
-  },
-  {
-    id: 6,
-    question: 'Are the academy training courses suitable for beginners, and do I get certified?',
-    answer: 'Absolutely! Our training programs are designed to accommodate both beginners entering the beauty and cosmetology space, and medical graduates seeking advanced device qualifications. Every course incorporates rigorous practical models and 100% hands-on training. Upon successful completion, you will receive a professional academy certification representing SHIVSAI 360.'
+    question: 'How do I book a consultation with Dr. Vijay Raut?',
+    answer: 'You can easily book a clinical consultation by filling out our online booking form, calling us directly, or clicking the floating WhatsApp button. Our administrative team will reach out via WhatsApp/Call to confirm your slot within 2 business hours.'
   }
 ];
 

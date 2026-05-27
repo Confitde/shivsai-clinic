@@ -6,37 +6,37 @@ const reviews = [
   {
     id: 1,
     name: 'Apurv Kulkarni',
-    treatment: 'Acne Scars Treatment',
+    treatment: 'FUE Hair Transplant',
     rating: 5,
     date: '1 week ago',
-    text: 'SHIVSAI 360 has completely changed my skin confidence. Dr. Priyanka Kawale diagnosed my acne scarring precisely and recommended microneedling RF. In just 4 sessions, the texture is incredibly smooth. Highly professional clinic!',
+    text: 'DermaVita Clinic has completely changed my confidence. Dr. Vijay Raut performed my FUE hair transplant. The density is outstanding, and the hairline looks incredibly natural. Best transplant clinic in Kolhapur!',
     avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80'
   },
   {
     id: 2,
     name: 'Priyanka Patil',
-    treatment: 'PRP Scalp Therapy',
+    treatment: 'Pigmentation Treatment',
     rating: 5,
     date: '3 weeks ago',
-    text: 'I was experiencing severe hair thinning after pregnancy. PRP treatment at SHIVSAI 360 was a lifesaver. The process was virtually painless and clinical hygiene was top notch. I can see dense new hair sprouting now. Highly recommended!',
+    text: 'I had stubborn melasma that did not fade with other treatments. Dr. Vijay Raut recommended a combination of Q-Switched laser and clinical depigmenting peels. In 5 sessions, my skin is clear, bright, and even!',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80'
   },
   {
     id: 3,
     name: 'Rohan Deshmukh',
-    treatment: 'Acne Solutions',
+    treatment: 'Acne & Scar Treatment',
     rating: 5,
     date: '1 month ago',
-    text: 'Best dermatology and cosmetology clinic in Kolhapur! Dr. Priyanka is very thorough. I got my active acne and breakouts treated here with custom salicylic peels. Excellent results and extremely caring staff.',
+    text: 'Excellent diagnostic expertise! Dr. Vijay Raut explained my acne scar treatment plan clearly. After 4 sessions of microneedling RF and subcision, my deep pits are mostly smooth. Highly professional setup!',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80'
   },
   {
     id: 4,
     name: 'Sneha Joshi',
-    treatment: 'Signature HydraFacial',
+    treatment: 'Laser Hair Removal',
     rating: 5,
     date: '2 months ago',
-    text: 'Absolutely in love with their HydraFacial glow! It cleanses and hydrates skin deeply. Perfect treatment to get right before family weddings or events. The luxury medical spa vibes at Rajarampuri are so relaxing.',
+    text: 'Best laser hair removal experience. The triple-wavelength cooling diode laser is virtually painless. The clinic space in Laxmipuri is pristine, hygienic, and extremely luxurious. Fully recommended!',
     avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80'
   }
 ];
@@ -79,7 +79,7 @@ export default function Testimonials() {
               <path d="M12.24 10.285V13.4h6.887c-.275 1.565-1.88 4.604-6.887 4.604-4.33 0-7.859-3.578-7.859-8s3.53-8 7.859-8c2.46 0 4.105 1.025 5.047 1.926l2.427-2.334C17.955 2.192 15.34 1 12.24 1 6.033 1 1 6.033 1 12.24s5.033 11.24 11.24 11.24c6.478 0 10.793-4.537 10.793-10.986 0-.746-.08-1.32-.176-1.785H12.24z"/>
             </svg>
             <span className="font-sans font-semibold">Google Verified</span>
-            <span className="text-brand-gold font-bold">4.9 ★★★★★ (330+ Reviews)</span>
+            <span className="text-brand-gold font-bold">5.0 ★★★★★ (57+ Reviews)</span>
           </div>
         </div>
 

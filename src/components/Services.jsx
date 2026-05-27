@@ -18,103 +18,87 @@ import {
 const services = [
   {
     id: 1,
-    title: 'Acne Solutions',
+    title: 'Skin Treatment',
     category: 'Skin',
     icon: Sparkles,
-    desc: 'Advanced acne-clearing programs, comedone extraction, and medical-grade solutions to clear active acne and prevent breakouts.',
-    price: 'Clear Skin'
+    desc: 'Expert clinical care for all dermatological conditions including eczema, psoriasis, dermatitis, and diagnostic therapies.',
+    price: 'Medical Dermatology'
   },
   {
     id: 2,
-    title: 'Acne Scar Treatment',
-    category: 'Skin',
-    icon: Layers,
-    desc: 'Deep subcision, microneedling fractional RF, and pixel lasers designed to remodel scar tissue and smooth deep indentations.',
-    price: 'Scar Remodeling'
+    title: 'Hair Treatment',
+    category: 'Hair',
+    icon: Activity,
+    desc: 'Advanced hair loss diagnostics, custom growth factor infusions, DHT blockers, and customized protocols to reactivate weak follicles.',
+    price: 'Follicle Science'
   },
   {
     id: 3,
-    title: 'Hair Loss Treatment',
+    title: 'Hair Transplant',
     category: 'Hair',
-    icon: Smile,
-    desc: 'Doctor-led clinical therapies, DHT blockers, and customized solutions to halt hair fall and reactivate weak follicles.',
-    price: 'Root Care'
+    icon: Layers,
+    desc: 'High-density FUE & DHI micro-surgical hair restoration recreating permanent, dense, and natural-looking hairlines.',
+    price: 'Permanent Hair'
   },
   {
     id: 4,
-    title: 'PRP Therapy',
-    category: 'Hair',
-    icon: Activity,
-    desc: 'Platelet-Rich Plasma therapy using concentrated growth factors to trigger cellular repair and boost hair density naturally.',
-    price: 'Growth Factor'
+    title: 'Laser Hair Removal',
+    category: 'Laser',
+    icon: Zap,
+    desc: 'FDA-approved triple-wavelength diode laser system with advanced contact sapphire cooling tip for comfortable hair reduction.',
+    price: 'Cooling Laser'
   },
   {
     id: 5,
-    title: 'HydraFacial',
+    title: 'Acne & Scar Treatment',
     category: 'Skin',
-    icon: Waves,
-    desc: 'Premium multi-step hydradermabrasion system that deeply cleanses, extracts impurities, and infuses active antioxidant serums.',
-    price: 'Instant Glow'
+    icon: Sparkles,
+    desc: 'Bespoke clinical acne control combined with subcision, microneedling fractional RF, and fractional CO2 laser scar remodeling.',
+    price: 'Texture Smooth'
   },
   {
     id: 6,
-    title: 'Chemical Peels',
+    title: 'Pigmentation Treatment',
     category: 'Skin',
-    icon: Sparkles,
-    desc: 'Doctor-formulated resurfacing peels to slough off damaged outer layers, improving skin tone, texture, and brightness.',
-    price: 'Clinical Peel'
+    icon: Sun,
+    desc: 'Advanced laser toning, photofacials, yellow peels, and targeted depigmenting regimens to fade melasma, dark spots, and sun damage.',
+    price: 'Even Bright Complex'
   },
   {
     id: 7,
-    title: 'Pigmentation Correction',
-    category: 'Skin',
-    icon: Sun,
-    desc: 'Advanced laser toning, photofacials, and depigmenting regimens targeting melasma, dark spots, and uneven skin tone.',
-    price: 'Even Tone'
+    title: 'Anti-Aging Treatments',
+    category: 'Cosmetics',
+    icon: Clock,
+    desc: 'Bespoke dermal fillers, fine-line relaxation, and advanced skin tightening to lift, sculpt, and naturally restore facial volumes.',
+    price: 'Age Defying'
   },
   {
     id: 8,
-    title: 'Anti-Aging Treatments',
-    category: 'Aesthetics',
-    icon: Clock,
-    desc: 'Premium dermal fillers, skin-tightening protocols, and fine-line relaxation treatments to restore youthful contours naturally.',
-    price: 'Bespoke Youth'
+    title: 'Dermatosurgery',
+    category: 'Surgery',
+    icon: Activity,
+    desc: 'Safe, minor clinical surgical excisions under local anesthesia for complete removal of skin tags, warts, moles, and cysts.',
+    price: 'Minor Surgery'
   },
   {
     id: 9,
-    title: 'Skin Rejuvenation',
+    title: 'Nail Treatments',
     category: 'Skin',
     icon: Heart,
-    desc: 'Microneedling RF, carbon lasers, and collagen induction therapies designed to remodel and firm skin texture.',
-    price: 'Collagen Boost'
+    desc: 'Specialized clinical treatments for stubborn nail fungal infections (onychomycosis), ingrown toenail correction, and nail dystrophy.',
+    price: 'Nail Correction'
   },
   {
     id: 10,
-    title: 'Aesthetic Procedures',
-    category: 'Aesthetics',
-    icon: Zap,
-    desc: 'Bespoke non-surgical contouring, lip enhancements, and facial sculpting procedures tailored to your unique structure.',
-    price: 'Premium Art'
-  },
-  {
-    id: 11,
-    title: 'Trichology Services',
-    category: 'Hair',
-    icon: Activity,
-    desc: 'Scientific scalp analysis, medical trichology consultations, and specialized treatments for alopecia and scalp disorders.',
-    price: 'Scalp Science'
-  },
-  {
-    id: 12,
-    title: 'Beauty Training Programs',
-    category: 'Academy',
-    icon: GraduationCap,
-    desc: 'Professional certification courses in advanced cosmetology, trichology, and modern clinical beauty treatments.',
-    price: 'Expert Training'
+    title: 'Cosmetic Procedures',
+    category: 'Cosmetics',
+    icon: Smile,
+    desc: 'Premium non-surgical enhancements including lip blush contouring, clinical glow facials, and deep nutrient skin boosts.',
+    price: 'Aesthetic Premium'
   }
 ];
 
-const categories = ['All', 'Skin', 'Hair', 'Aesthetics', 'Academy'];
+const categories = ['All', 'Skin', 'Hair', 'Laser', 'Cosmetics', 'Surgery'];
 
 export default function Services() {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -146,7 +130,7 @@ export default function Services() {
           </h2>
           <div className="w-16 h-[1px] bg-brand-gold mx-auto mb-6"></div>
           <p className="font-sans text-brand-dark-light text-sm md:text-base font-light leading-relaxed">
-            Experience advanced, FDA-approved technologies and procedures led by Dr. Priyanka Kawale. We specialize in custom-tailored regimens that reveal radiant, flawless results.
+            Experience advanced, FDA-approved technologies and procedures led by Dr. Vijay Raut. We specialize in custom-tailored regimens that reveal radiant, healthy results.
           </p>
         </div>
 

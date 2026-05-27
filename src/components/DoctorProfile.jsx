@@ -5,26 +5,26 @@ const credentials = [
   {
     id: 1,
     icon: GraduationCap,
-    label: 'Medical Graduate',
-    desc: 'Rigorous medical clinical graduate foundation ensuring a safe, evidence-based approach to skincare.'
+    label: 'Medical Specialist',
+    desc: 'MD / DNB in Dermatology with a deep, specialized foundation in clinical skin and hair disorders.'
   },
   {
     id: 2,
     icon: Award,
-    label: 'Post Graduate in Medical Cosmetology (USA)',
-    desc: 'Advanced training and specialization in high-performance cosmetic treatments from the United States.'
+    label: 'Hair Transplant Expert',
+    desc: 'Advanced fellowships in FUE & DHI hair restoration, delivering dense and natural-looking hairlines.'
   },
   {
     id: 3,
     icon: BookOpen,
-    label: 'Cosmetology & Trichology Expert',
-    desc: 'Extensive specialization in deep hair disorders, scalp therapies, lasers, and facial aesthetics.'
+    label: 'Dermatosurgery Specialist',
+    desc: 'Exacting minor surgical skills for completely safe and scar-free cyst, tag, and wart removals.'
   },
   {
     id: 4,
     icon: HeartPulse,
-    label: 'Custom Aesthetic Solutions',
-    desc: 'Personalized treatment blueprints utilizing FDA-approved procedures for highest patient satisfaction.'
+    label: 'Aesthetic Specialist',
+    desc: 'Tailored cosmetic procedures using gold-standard US FDA-approved lasers and anti-aging therapies.'
   }
 ];
 
@@ -53,8 +53,8 @@ export default function DoctorProfile() {
             />
             {/* Elegant glass name bar */}
             <div className="absolute bottom-4 left-4 right-4 glass-panel py-3 px-5 rounded-2xl border border-white/40 shadow-md text-left">
-              <h4 className="font-serif text-base font-bold text-brand-dark">Dr. Priyanka Kawale</h4>
-              <p className="text-[10px] font-sans text-brand-gold-dark uppercase tracking-wider font-semibold">Founder & Chief Cosmetologist</p>
+              <h4 className="font-serif text-base font-bold text-brand-dark">Dr. Vijay Raut</h4>
+              <p className="text-[10px] font-sans text-brand-gold-dark uppercase tracking-wider font-semibold">Founder & Chief Dermatologist</p>
             </div>
           </div>
 
@@ -64,18 +64,18 @@ export default function DoctorProfile() {
         <div className="lg:col-span-7 text-left">
           
           <span className="font-sans text-xs uppercase tracking-[0.25em] text-brand-gold-dark font-semibold mb-3 block">
-            Founder & Medical Cosmetologist
+            Chief Dermatologist & Specialist
           </span>
           
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-brand-dark mb-6 leading-tight">
-            Meet <span className="gold-gradient-text">Dr. Priyanka Kawale</span>
+            Meet <span className="gold-gradient-text">Dr. Vijay Raut</span>
           </h2>
           
           <div className="w-16 h-[1px] bg-brand-gold mb-6"></div>
 
           {/* Philosophy Text */}
           <blockquote className="font-serif text-lg text-brand-dark-light/95 italic border-l-2 border-brand-gold pl-6 mb-8 leading-relaxed">
-            "Every individual deserves healthy, glowing skin and thick, beautiful hair that inspires confidence. By merging advanced USA-standard cosmetology techniques with customized personal care, our clinic crafts life-changing transformations that stand the test of time."
+            "Every patient deserves advanced clinical dermatology and high-density hair restoration designed to inspire true confidence. By merging scientific precision with safe, medical-grade care, we craft life-changing transformations that enhance both health and natural beauty."
           </blockquote>
 
           {/* Credentials Listing */}

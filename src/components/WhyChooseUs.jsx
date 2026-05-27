@@ -6,45 +6,45 @@ import {
   FileHeart, 
   ShieldCheck, 
   Users,
-  GraduationCap
+  Sparkles
 } from 'lucide-react';
 
 const reasons = [
   {
     id: 1,
-    title: 'Personalized Treatment Plans',
-    icon: FileHeart,
-    desc: 'We reject cookie-cutter routines. Your skin and hair receive custom, personalized diagnostics and targeted therapies.'
+    title: 'Experienced Dermatologist',
+    icon: Award,
+    desc: 'All diagnoses and clinical procedures are directly designed, led, and supervised by Dr. Vijay Raut, MD / DNB in Dermatology.'
   },
   {
     id: 2,
-    title: 'Advanced Equipment',
+    title: 'Advanced Technology',
     icon: Cpu,
-    desc: 'Equipped with gold-standard, FDA-approved laser machines and high-end devices ensuring safety and superior precision.'
+    desc: 'Equipped with gold-standard, US FDA-approved laser technologies and specialized hair transplant suites for high-precision outcomes.'
   },
   {
     id: 3,
-    title: 'Experienced Doctor',
-    icon: Award,
-    desc: 'All treatments are designed and supervised by Dr. Priyanka Kawale, a medical graduate with a Post Graduation in Cosmetology from the USA.'
+    title: 'Safe & Hygienic Procedures',
+    icon: ShieldCheck,
+    desc: 'We enforce rigorous clinical sterilization, utilize high-quality single-use medical consumables, and follow strict hospital safety protocols.'
   },
   {
     id: 4,
-    title: 'Safe Procedures',
-    icon: ShieldCheck,
-    desc: 'Strict clinical sterilization protocols, premium medical consumables, and expert supervision for complete safety.'
+    title: 'Personalized Treatment Plans',
+    icon: FileHeart,
+    desc: 'No cookie-cutter therapies. We perform a deep analysis of your skin or hair condition and craft a personalized clinical treatment blueprint.'
   },
   {
     id: 5,
-    title: 'Excellent Patient Satisfaction',
+    title: 'High Patient Satisfaction',
     icon: Users,
-    desc: 'Over 330+ glowing reviews with a 4.9★ Google rating from patients who have successfully transformed their skin and hair.'
+    desc: 'Proudly holding a perfect 5.0 rating on Google from 57+ verified patient reviews praising our diagnostic expertise and gentle care.'
   },
   {
     id: 6,
-    title: 'Professional Training Academy',
-    icon: GraduationCap,
-    desc: 'We are also a premier academy offering professional cosmetology and trichology training programs for future aesthetics leaders.'
+    title: 'Modern Clinic Setup',
+    icon: Sparkles,
+    desc: 'Relax and receive treatment inside our elegant, state-of-the-art clinic chambers conveniently located in Laxmipuri, Kolhapur.'
   }
 ];
 
@@ -61,14 +61,14 @@ export default function WhyChooseUs() {
         {/* Header Block */}
         <div className="text-center max-w-2xl mx-auto mb-20">
           <span className="font-sans text-xs uppercase tracking-[0.25em] text-brand-gold-dark font-semibold mb-3 block">
-            Why SHIVSAI 360
+            Why DERMAVITA
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-brand-dark mb-5">
-            Setting the Luxury Standard
+            A Higher Standard of Care
           </h2>
           <div className="w-16 h-[1px] bg-brand-gold mx-auto mb-6"></div>
           <p className="font-sans text-brand-dark-light text-sm md:text-base font-light leading-relaxed">
-            We merge high-precision cosmetology and aesthetics with the comforting, sensory experience of a premium luxury wellness journey.
+            We merge medical-grade clinical dermatology and advanced laser tech with the patient-centric comfort of a premium aesthetic clinic.
           </p>
         </div>
 

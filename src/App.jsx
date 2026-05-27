@@ -10,7 +10,7 @@ import BeforeAfter from './components/BeforeAfter';
 import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';
 import DoctorProfile from './components/DoctorProfile';
-import Academy from './components/Academy';
+import AboutClinic from './components/AboutClinic';
 import Gallery from './components/Gallery';
 import BookingForm from './components/BookingForm';
 import FAQ from './components/FAQ';
@@ -46,10 +46,10 @@ export default function App() {
 
             {/* Brand Names fading in */}
             <h1 className="font-serif text-3xl md:text-4xl font-bold tracking-widest text-brand-dark uppercase mb-2 text-center px-4">
-              SHIVSAI 360
+              DERMAVITA CLINIC
             </h1>
             <p className="font-sans text-[10px] uppercase tracking-[0.25em] text-brand-gold-dark font-medium mb-12 text-center px-4">
-              Skin • Hair • Aesthetics • Academy
+              Skin • Hair • Laser • Aesthetics
             </p>
 
             {/* Glowing line progress bar */}
@@ -77,12 +77,12 @@ export default function App() {
             {/* Core Sections in requested order */}
             <main className="flex-grow">
               <Hero />
+              <AboutClinic />
               <Services />
               <DoctorProfile />
               <BeforeAfter />
               <WhyChooseUs />
               <Testimonials />
-              <Academy />
               <Gallery />
               <BookingForm />
               <FAQ />

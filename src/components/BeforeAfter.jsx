@@ -5,33 +5,33 @@ import { Sparkles, Calendar, UserCheck } from 'lucide-react';
 const cases = [
   {
     id: 1,
-    title: 'Acne Scar Remodeling',
-    category: 'Skin',
+    title: 'FUE Hair Transplant',
+    category: 'Hair',
     before: import.meta.env.BASE_URL + 'before.jpg',
     after: import.meta.env.BASE_URL + 'after.jpg',
-    sessions: '4 Sessions',
-    timeframe: '3 Months',
-    desc: 'Deep subcision combined with microneedling fractional RF restored structural tissue and smoothed uneven textural pitting.'
+    sessions: '1 Session',
+    timeframe: '6 Months',
+    desc: 'Advanced FUE micro-grafts successfully filled the receded hairline and temples, achieving natural density and a youthful framing.'
   },
   {
     id: 2,
-    title: 'Melasma Pigmentation',
+    title: 'Laser Pigmentation Toning',
     category: 'Laser',
     before: import.meta.env.BASE_URL + 'before.jpg',
     after: import.meta.env.BASE_URL + 'after.jpg',
     sessions: '5 Sessions',
-    timeframe: '4 Months',
-    desc: 'Q-Switched laser toning and medical depigmenting peels broke down dermal melanin reserves for a bright, even skin tone.'
+    timeframe: '3 Months',
+    desc: 'FDA-approved Q-Switched laser toning combined with medical peels deep-cleared stubborn melasma, restoring a clear and even complexion.'
   },
   {
     id: 3,
-    title: 'Hair Regrowth & Density',
-    category: 'Hair',
+    title: 'Acne Scar MNRF',
+    category: 'Skin',
     before: import.meta.env.BASE_URL + 'before.jpg',
     after: import.meta.env.BASE_URL + 'after.jpg',
-    sessions: '6 Sessions',
-    timeframe: '6 Months',
-    desc: 'Platelet-Rich Plasma (PRP) scalp therapy injected vital growth factors, multiplying active follicles and thickness.'
+    sessions: '4 Sessions',
+    timeframe: '4 Months',
+    desc: 'Deep Microneedling Fractional RF (MNRF) stimulated massive dermal collagen remodeling, smoothing severe textural acne scar pitting.'
   }
 ];
 

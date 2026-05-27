@@ -44,7 +44,7 @@ export default function Gallery() {
           </h2>
           <div className="w-16 h-[1px] bg-brand-gold mx-auto mb-6"></div>
           <p className="font-sans text-brand-dark-light text-sm md:text-base font-light leading-relaxed">
-            Every room at SHIVSAI 360 is engineered with absolute hygiene protocols, advanced equipment, and calming luxury palettes.
+            Every room at DERMAVITA CLINIC is engineered with absolute hygiene protocols, advanced equipment, and calming luxury palettes.
           </p>
         </div>
 
